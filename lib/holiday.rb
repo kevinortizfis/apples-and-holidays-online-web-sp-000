@@ -83,7 +83,7 @@ bbqday = []
 holiday_hash.each do |k,v|
   v.each do |k,v|
     if v.include?("BBQ")
-      bbqday << v
+      bbqday << k
     end
   end
 end
