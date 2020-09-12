@@ -46,7 +46,7 @@ holiday_hash.each do |k,v|
   end
   end
 holiday_hash.each do |k,v|
-    if k == :spring
+    if k == :spring && v.include?("Grill")
     v.each do |k,v|
       v << "Table Cloth"
     end
