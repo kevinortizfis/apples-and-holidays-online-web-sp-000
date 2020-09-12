@@ -42,7 +42,6 @@ holiday_hash.each do |k,v|
     if k == :spring
     v.each do |k,v|
       v << "Grill"
-      v << "Table Cloth"
     end
   end
   end
