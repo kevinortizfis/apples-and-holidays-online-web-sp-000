@@ -53,6 +53,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   columbus_day = {columbus_day: []}
   holiday_hash.each do |k,v|
     v.each do |k,v|
+      
       v << supply_array
     end
   end
