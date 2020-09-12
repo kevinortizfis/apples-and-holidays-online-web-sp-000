@@ -45,7 +45,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     end
   end
   end
-  holiday_hash.each do |k,v|
+holiday_hash.each do |k,v|
     if k == :spring
     v.each do |k,v|
       v << "Grill"
