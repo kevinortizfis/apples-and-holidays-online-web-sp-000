@@ -83,6 +83,7 @@ holiday_hash.each do |k,v|
   v.each do |k,v|
     if v.include?("BBQ")
       v
+    end
   end
 end
 
