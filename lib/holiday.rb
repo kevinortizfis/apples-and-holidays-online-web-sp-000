@@ -45,6 +45,13 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     end
   end
   end
+  holiday_hash.each do |k,v|
+    if k == :spring
+    v.each do |k,v|
+      v << "Grill"
+    end
+  end
+  end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
