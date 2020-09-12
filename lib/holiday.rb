@@ -43,7 +43,6 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     v.each do |k,v|
       v << "Grill"
     if v.include?("Grill")
-    v.each do |k,v|
       v << "Table Cloth"
     end
   end
