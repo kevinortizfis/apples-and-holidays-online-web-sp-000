@@ -85,6 +85,5 @@ holiday_hash.each do |k,v|
       "Boys"
     end
   end
-  "II"
 end
 end
