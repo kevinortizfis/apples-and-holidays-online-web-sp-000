@@ -45,13 +45,6 @@ holiday_hash.each do |k,v|
     end
   end
   end
-holiday_hash.each do |k,v|
-    if k == :spring && v.include?("Grill")
-    v.each do |k,v|
-      v << "Table Cloth"
-    end
-  end
-  end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
