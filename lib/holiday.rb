@@ -83,4 +83,3 @@ holiday_hash.each do |k,v|
   v.values
   end
 end
-end
